@@ -71,10 +71,21 @@ div#header, div#footer { color: silver; background: #1F1F1F; }
 
 #controls #navLinks a { color: silver; }
 
-.title h1 { margin-top: 30%; left: 10%; font-size: 50px; }
-.title h2 { left: 10%; font-size: 35px; font-style: italic; }
+.title h1 { 
+     margin-top: 30%; 
+     left: 10%; 
+     font-size: 50px; 
+     text-align: center; 
+}
 
-.large h1 { font-size: 72px; }
+.title h2 { 
+     left: 10%; 
+     font-size: 35px; 
+     font-style: italic; 
+     text-align: center; 
+}
+
+.large h1 { font-size: 72px; text-align: center; }
 
 .flip { color: darkred; }
 .bold > ul > li { font-weight: bold; }
