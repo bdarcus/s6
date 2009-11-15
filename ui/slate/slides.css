@@ -1,9 +1,23 @@
 @import url(../default/slides.css); /* required to make the slide show run at all */
+
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+
+@font-face {
+    font-family: Delicious;
+    src: url("../font/Delicious-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Delicious;
+    font-weight: bold;
+    src: url("../font/Delicious-Bold.otf") format("opentype");
+}
+
      
 html, body { 
     background: darkgray; 
     color: white;
-    font-family: 'Myriad Pro', 'Lucida Sans', 'Gill Sans', Calibri, Verdana, Arial, Helvetica, sans-serif; 
+    font-family: Delicious, 'Myriad Pro', 'Lucida Sans', 'Gill Sans', Calibri, Verdana, Arial, Helvetica, sans-serif; 
 }
 
 a:link, a:visited { color: white; }
