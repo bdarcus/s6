@@ -106,4 +106,6 @@ div#header, div#footer { color: silver; background: #1F1F1F; }
 }
 
 .flip { color: darkred; }
-.bold > ul > li { font-weight: bold; }
+
+li { font-weight: bold; }
+
