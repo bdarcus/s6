@@ -23,8 +23,8 @@ html, body {
 a:link, a:visited { color: white; }
 
 h1 { font-size: 30pt; z-index:2; }
-h2 { font-size: 28pt; }
-h3, li { font-size: 25pt; }
+h2 { font-size: 24pt; }
+h3, li { font-size: 20pt; }
 p, td, th { font-size: 18pt; }
 
 table { 
