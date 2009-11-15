@@ -87,5 +87,9 @@ div#header, div#footer { color: silver; background: #1F1F1F; }
 
 .large h1 { font-size: 72px; text-align: center; }
 
+.hide h1 { 
+     display: none;
+}
+
 .flip { color: darkred; }
 .bold > ul > li { font-weight: bold; }
