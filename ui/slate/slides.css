@@ -1,0 +1,80 @@
+@import url(../default/slides.css); /* required to make the slide show run at all */
+     
+html, body { 
+    background: darkgray; 
+    color: white;
+    font-family: 'Myriad Pro', 'Lucida Sans', 'Gill Sans', Calibri, Verdana, Arial, Helvetica, sans-serif; 
+}
+
+a:link, a:visited { color: white; }
+
+h1 { font-size: 30pt; z-index:2; }
+h2 { font-size: 28pt; }
+h3 { font-size: 25pt; }
+p, li, td, th { font-size: 18pt; }
+
+table { 
+    background: white; 
+    color: black; 
+    padding: 2em; 
+}
+td, th { padding: 1em; }
+
+pre { font-size: 16pt; }
+
+pre.code { 
+    background-color: black;
+    padding: 5px;
+    border: silver thick groove;
+    -moz-border-radius: 11px;
+}
+
+blockquote { 
+    background-color: white;
+    padding: 1.5em;
+    padding-bottom: 0.5;
+    margin-bottom: 1em; 
+    font-family: 'Minion Pro', 'Lucida Bright', Cambria, Georgia, 'Times New Roman', serif;
+    border: silver thick solid;
+    -moz-border-radius: 11px;
+    color: black; 
+    line-height: 1.5em; 
+}
+
+cite.source { 
+    color: slategray; 
+    font-weight: bold; 
+    font-size: 0.8em; 
+    text-align: right; 
+    margin-right: 3em; 
+    margin-bottom: 1em; 
+    margin-top: 0.7em; 
+    display: block; 
+}
+
+cite.source a { 
+    color: slategray; 
+    font-weight: bold; 
+}
+
+.imgbig img {
+    height: 100%;
+    z-index: -1;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+ 
+div#header, div#footer { color: silver; background: #1F1F1F; }
+
+#currentSlide { color: silver; }
+
+#controls #navLinks a { color: silver; }
+
+.title h1 { margin-top: 30%; left: 10%; font-size: 50px; }
+.title h2 { left: 10%; font-size: 35px; font-style: italic; }
+
+.large h1 { font-size: 72px; }
+
+.flip { color: darkred; }
+.bold > ul > li { font-weight: bold; }
