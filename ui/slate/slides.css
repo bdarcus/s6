@@ -77,7 +77,6 @@ cite.source a {
     position:absolute;
     left:0px;
     top:0px;
-    overflow: hidden;
 }
  
 div#header, div#footer { color: silver; background: #1F1F1F; }
