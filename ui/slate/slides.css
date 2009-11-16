@@ -79,7 +79,7 @@ cite.source a {
     top:0px;
 }
  
-div#header, div#footer { color: silver; background: #1F1F1F; }
+div#header, div#footer { color: silver; background: #1F1F1F; font-size: 1.4em; }
 
 #currentSlide { color: silver; }
 
@@ -92,11 +92,17 @@ div#header, div#footer { color: silver; background: #1F1F1F; }
     text-align: center; 
 }
 
+.license {
+    text-align: center;
+    margin-top: 3em;
+}
+
 .title h2 { 
     left: 10%; 
     font-size: 35px; 
     font-style: italic; 
     text-align: center; 
+    font-weight: normal;
 }
 
 .large h1 { font-size: 72px; text-align: center; }
