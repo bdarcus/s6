@@ -77,6 +77,7 @@ cite.source a {
     position:absolute;
     left:0px;
     top:0px;
+    overflow: hidden;
 }
  
 div#header, div#footer { color: silver; background: #1F1F1F; }
@@ -86,23 +87,23 @@ div#header, div#footer { color: silver; background: #1F1F1F; }
 #controls #navLinks a { color: silver; }
 
 .title h1 { 
-     margin-top: 30%; 
-     left: 10%; 
-     font-size: 50px; 
-     text-align: center; 
+    margin-top: 30%; 
+    left: 10%; 
+    font-size: 50px; 
+    text-align: center; 
 }
 
 .title h2 { 
-     left: 10%; 
-     font-size: 35px; 
-     font-style: italic; 
-     text-align: center; 
+    left: 10%; 
+    font-size: 35px; 
+    font-style: italic; 
+    text-align: center; 
 }
 
 .large h1 { font-size: 72px; text-align: center; }
 
 .hide-header h1 { 
-     display: none;
+    display: none;
 }
 
 .flip { color: darkred; }
