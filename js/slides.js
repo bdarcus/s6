@@ -10,7 +10,7 @@ function extractBlockquoteInfo() {
       
       /* for some reason, this doesn't work with null */
       if (cite == "" && title != "") {
-	$(this).append("<cite class='source'>"+title+"</cite>");
+	$(this).append("<cite class='source'>— "+title+"</cite>");
       }
       
       else if (cite != null && title == "") {
@@ -18,7 +18,7 @@ function extractBlockquoteInfo() {
       }
       
       else if (cite != null && title != null) {
-	$(this).append("<cite class='source'><a href='"+cite+"' title='"+title+"'>"+title+"</a></cite>");
+	$(this).append("<cite class='source'><a href='"+cite+"' title='"+title+"'>— "+title+"</a></cite>");
       }
       
       else {
