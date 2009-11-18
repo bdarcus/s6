@@ -31,6 +31,9 @@ table {
     background: white; 
     color: black; 
     padding: 2em; 
+    position: center; 
+    border: silver thick groove;
+    -moz-border-radius: 11px;
 }
 td, th { padding: 1em; }
 
