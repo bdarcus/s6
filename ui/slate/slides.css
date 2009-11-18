@@ -30,12 +30,17 @@ p, td, th { font-size: 18pt; }
 table { 
     background: white; 
     color: black; 
-    padding: 2em; 
-    position: center; 
+    padding: 1em; 
+    margin-left:auto; 
+    margin-right:auto;
     border: silver thick groove;
     -moz-border-radius: 11px;
 }
-td, th { padding: 1em; }
+td, th { padding: 0.5em; }
+
+.center { text-align: center; }
+
+tr.header { background:  #ECF1EF; font-weight: bold; }
 
 pre { font-size: 16pt; }
 
