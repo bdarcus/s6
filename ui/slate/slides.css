@@ -4,13 +4,13 @@
 
 @font-face {
     font-family: Delicious;
-    src: url("../font/Delicious-Roman.otf") format("opentype");
+    src: url("http://bruce.darcus.name/media/font/Delicious-Roman.otf") format("opentype");
 }
 
 @font-face {
     font-family: Delicious;
     font-weight: bold;
-    src: url("../font/Delicious-Heavy.otf") format("opentype");
+    src: url("http://bruce.darcus.name/media/font/Delicious-Heavy.otf") format("opentype");
 }
 
      
@@ -31,8 +31,8 @@ table {
     background: white; 
     color: black; 
     padding: 1em; 
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto; 
+    margin-right: auto;
     border: silver thick groove;
     -moz-border-radius: 11px;
 }
