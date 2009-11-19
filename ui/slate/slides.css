@@ -105,6 +105,8 @@ div#header, div#footer { color: silver; background: #1F1F1F; font-size: 1.4em; }
     margin-top: 3em;
 }
 
+.float-down { margin-top: 2em; }
+
 .title h2 { 
     left: 10%; 
     font-size: 35px; 
