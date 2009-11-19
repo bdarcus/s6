@@ -123,5 +123,6 @@ div#header, div#footer { color: silver; background: #1F1F1F; font-size: 1.4em; }
 
 .flip { color: darkred; }
 
-li { font-weight: bold; }
-
+li { font-weight: bold; margin-bottom: 0.5em; }
+ul, ol { margin-left: 2em; }
+p { line-height: 1.6em; }
